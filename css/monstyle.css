@@ -1,0 +1,159 @@
+body {
+    background-image: url("../image/body.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial;
+}    
+
+#titrePrincipale
+{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 15%;
+}
+
+#titres
+{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%%;
+}
+
+.sect
+{
+    text-align: center;
+    background-color: #ffffff;
+    width: 200px;
+    height: 150px;
+    display: inline;
+    float: left;
+}
+
+.sect:hover
+{
+    background-color:  #C2CADC;
+    width: 220px;
+    height: 170px;
+}
+
+.ss
+{
+    width: 900px;
+    margin: auto;
+    vertical-align: center;
+}
+
+.sect a
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.sect a:hover
+{
+    color: #7796ae;
+}
+
+.sect a:active
+{
+    color: #00000f;
+}
+
+#partieDeux
+{
+    display: block;
+    float: left;
+    background-color: #666666;
+    margin-left: 200px;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    padding-left: 2%;
+}
+
+table
+{
+    border-collapse: collapse;
+    background-color: #808080;
+    margin-top: 20px;
+}
+
+td,th
+{
+    border-style: dashed;
+    padding: 5px;
+}
+
+form
+{
+    margin-left: 100px;
+    width: 70%;
+}
+
+.form
+{
+    width: 90%;
+    height: 30px;
+}
+
+.ff
+{
+    background-color: #404040;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ff:hover
+{
+    background-color: #262626;
+}
+
+button 
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+  
+button:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.previous 
+{
+    background-color: #808080;
+    color: black;
+}
+
+.next 
+{
+    background-color: #808080;
+    color: white;
+}
+
+#buttons
+{
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+#heure
+{
+    display: block;
+    float: left;
+    color: #ffffff;
+    text-shadow: #000000 2px 2px;
+}

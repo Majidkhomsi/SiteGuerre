@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Guerre mondiale</title>
+        <meta name="Riak" content="guerre"/>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/monstyle.css" />
+    </head>
+    <body>
+        <div id="partieUn">
+            <h1 id="titres">Guerre mondiale</h1>
+            <div id="buttons">
+                <button class="previous round" onclick="window.history.back()">&#8249;</button>
+                <button class="next round" onclick="window.history.go(1)">&#8250;</button>
+            </div>
+            <div class="ss">
+                <div id="sect1" class="sect" onclick="lienClick()">
+                    <a href="index.html">SOMMAIRE</a>
+                    <p>Ici, vous trouvez le sommaire principale</p>
+                </div>
+                <div id="sect2" class="sect" onclick="lienClick()">
+                    <a href="guerres.html">Les deux guerres</a>
+                    <p>Ici, vous trouvez des informations &agrave; propos des deux guerres mondiales</p>
+                </div>
+                <div id="sect3" class="sect" onclick="lienClick()">
+                    <a href="idd.html">Vos id&eacute;es</a>
+                    <p>Ici, vous pouvez nous envoyer des id&eacute;e pour pr&eacute;venir une autre guerre mondiale</p>
+                </div>
+                <div id="sect4" class="sect" onclick="lienClick()">
+                    <a href="ovSimp.html">OverSimplified</a>
+                    <p>Ici, vous trouvez des videos qui expliques quelques tactiques</p>
+                </div>
+            </div>
+        </div>
+        <div id="partieDeux">
+            <a href="https://www.youtube.com/user/Webzwithaz/videos" style="display: block;"><img src="../image/youtube.png" alt="youtube" width="50" height="50" /></a>
+            <video width="700" height="400" controls>
+                <source src="../video/oversimplified1.mp4" type="video/mp4">
+            </video>
+            <video width="700" height="400" controls>
+                <source src="../video/oversimplified2.mp4" type="video/mp4">
+            </video>  
+        </div> 
+        <script type="text/javascript" src="../javascript/mascript.js"></script>
+    </body>
+</html>    
